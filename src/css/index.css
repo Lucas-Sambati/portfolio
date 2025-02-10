@@ -1,0 +1,83 @@
+body {
+    background-color: rgb(255, 219, 103); 
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    display: flex;
+}
+
+.navegacao {
+    position: absolute;
+    right: 270px;
+    top: 150px;
+}
+
+.navegacao::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 2px; 
+    height: 100%;
+    background-color: rgb(182, 156, 72); 
+    transition: background-color 0.5s ease-in-out; 
+  }
+
+h2, a {
+    text-decoration: none;
+    font-size: 17px;
+    color: #000;
+    font-weight: 500;
+}
+
+.lista-sessoes {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    max-width: 300px;
+    padding: 0;
+    margin: 0;
+}
+
+.lista-sessoes:hover ~ .navegacao::before {
+    background-color: #000;
+}
+
+.sessoes {
+    padding-left: 34px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    position: relative;
+    width: 300px;
+    height: 42px;
+    overflow: hidden;
+    align-items: center;
+}
+.sessoes::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%; 
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.15); 
+    transition: width 0.5s ease-in-out; 
+}
+
+.sessoes:hover::after {
+    width: 100%;
+    cursor: pointer;
+}
+
+li::marker {
+    content: none;
+}
+
+.descricao-nav {
+    margin-top: 40px;
+    margin-left: 34px;
+}
+
+section {
+    display: flex;
+}

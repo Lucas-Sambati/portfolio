@@ -5,74 +5,137 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfólio Pessoal Lucas Sambati</title>
 
-    <link rel="stylesheet" href="src/css/index.css" />
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/index.css">
+    <link rel="stylesheet" href="src/css/sobreMim.css">
+    <link rel="stylesheet" href="src/css/meusServicos.css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    
+    <script src="https://unpkg.com/@phosphor-icons/web@2.1.1"></script>
   </head>
   <body>
-    <nav class="navegacao" id="navegacao">
-      <ul class="lista-sessoes">
-        <li class="sessao-1 sessoes">
-          <a href="">01 TOPO</a>
-        </li>
-        <li class="sessao-2 sessoes">
-          <a href="">02 SOBRE MIM</a>
-        </li>
-        <li class="sessao-3 sessoes">
-          <a href="">03 MEUS SERVIÇOS</a>
-        </li>
-        <li class="sessao-4 sessoes">
-          <a href="">04 SKILLS</a>
-        </li>
-        <li class="sessao-5 sessoes">
-          <a href="">05 PROJETOS</a>
-        </li>
-        <li class="sessao-6 sessoes">
-          <a href="">06 FATOS</a>
-        </li>
-        <li class="sessao-7 sessoes">
-          <a href="">07 CONTATOS</a>
-        </li>
-      </ul>
-      <div class="descricao-nav">
-        <h2>sambati@hotmail.com</h2>
-        <h2>+55 (43)99923-3789</h2>
-      </div>
-    </nav>
-    <main class="container-fluido">
-      <section id="topo">
-        <div class="conteudo">
-          <h1 class="nome">OLÁ, EU SOU LUCAS SAMBATI</h1>
-          <h1 class="Typewriter">
-            <span class="Typewriter__wrapper">
-              "D" "e" "s" "e" "n" "v" "o" "l" "v" "e" "d" "o" "r"
-            </span>
-            <span class="Typewriter__cursor">|</span>
-          </h1>
-          <h2 class="localidade">residente em Rolândia, Paraná</h2>
-          <div class="botoes-topo">
-            <a href="">Meus Projetos</a>
-            <a href="">Contacte-me</a>
-          </div>
+    <header></header>
+    <div class="pagina">
+      <nav class="navegacao" id="navegacao">
+        <ul class="lista-sessoes">
+          <li class="sessao-1 sessoes">
+            <a href="">01 TOPO</a>
+          </li>
+          <li class="sessao-2 sessoes">
+            <a href="">02 SOBRE MIM</a>
+          </li>
+          <li class="sessao-3 sessoes">
+            <a href="">03 MEUS SERVIÇOS</a>
+          </li>
+          <li class="sessao-4 sessoes">
+            <a href="">04 SKILLS</a>
+          </li>
+          <li class="sessao-5 sessoes">
+            <a href="">05 PROJETOS</a>
+          </li>
+          <li class="sessao-6 sessoes">
+            <a href="">06 FATOS</a>
+          </li>
+          <li class="sessao-7 sessoes">
+            <a href="">07 CONTATOS</a>
+          </li>
+        </ul>
+        <div class="descricao-nav">
+          <h2>sambati@hotmail.com</h2>
+          <h2>+55 (43)99923-3789</h2>
         </div>
-        <div class="foto-pessoal">
-          <img
-            width="415"
-            height="416"
-            src="src/imagens/lucas.jpeg"
-            alt="Lucas Sambati"
-          />
-          <div class="ondas">
+      </nav>
+      <main class="container-fluido">
+        <section class="topo">
+          <div class="conteudo">
+            <h1 class="nome">OLÁ, SOU LUCAS SAMBATI</h1>
+            <h1 class="Typewriter">
+              <span class="Typewriter__wrapper"></span>
+              <span class="Typewriter__cursor">|</span>
+            </h1>
+            <h2 class="localidade">residente em Rolândia, Paraná.</h2>
+            <div class="botoes-topo">
+              <a id="botao-projetos" href="">Meus Projetos</a>
+              <a id="botao-contato" href="">Contacte-me</a>
+            </div>
+          </div>
+          <div class="foto-pessoal">
+            <img
+              id="foto-pessoal"
+              width="400"
+              height="400"
+              src="src/imagens/lucas.jpeg"
+              alt="Lucas Sambati"
+            />
             <span></span>
             <span></span>
             <span></span>
             <span></span>
           </div>
+        </section>
+        <div class="intervalo">
+          <a href="">1/7</a>
+          <a href="">Próxima Sessão</a>
+          <span class="icon"><i class="ph ph-arrow-elbow-right-down"></i></span>
         </div>
-      </section>
-    </main>
+        <section class="sobre-mim">
+          <span id="sobre-mim">SOBRE MIM</span>
+          <div class="introducao">
+            <h4>Algumas Palavras Sobre Mim</h4>
+            <h2>Me Conheça Melhor</h2>
+          </div>
+          <div class="conteudo-pessoal">
+            <div class="descricao-pessoal">
+              <h2>Sou Lucas Sambati, um Desenvolvedor</h2>
+              <p>
+                I'm a designer & developer with a passion for web design. I enjoy
+                developing simple, clean and slick websites that provide real
+                value to the end user. Thousands of clients have procured
+                exceptional results while working with me. Delivering work within
+                time and budget which meets client's requirements is our moto.
+              </p>
+              <div class="dados">
+                <div class="conteudo-dados">
+                  <p>Email:</p>
+                  <a href="mailto:lucasleonardosambati@hotmail.com">sambati@hotmail.com</a>
+                </div>
+                <div class="conteudo-dados">
+                  <p>Data de Nascimento:</p>
+                  <span>12 de Outubro, 2005</span>
+                </div>
+                <div class="conteudo-dados">
+                  <p>Localidade:</p>
+                  <span>Rolândia, Paraná</span>
+                </div>
+              </div>
+            </div>
+            <div class="experience-card">
+              <span class="main-number">3</span>
+              <span class="outline-number">3</span>
+              <span class="outline-number">3</span>
+              <p>Anos de Experiência</p>
+            </div>
+          </div>
+        </section>
+        <div class="intervalo">
+          <a href="">2/7</a>
+          <a href="">Próxima Sessão</a>
+        </div>
+        <section class="meus-servicos">
+          <span id="meus-servicos">SERVIÇOS</span>
+          <div class="introducao">
+            <h4>Como Eu Posso Ajudar Seu Próximo Projeto</h4>
+            <h2>O Que Eu Faço</h2>
+          </div>
+        </section>
+      </main>
+    </div>
+    <script src="src/js/index.js"></script>
   </body>
 </html>

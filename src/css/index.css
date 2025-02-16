@@ -219,3 +219,30 @@ li::marker {
         opacity: 0;
     }
 }
+
+.intervalo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.intervalo:hover {
+    cursor: pointer;
+}
+
+#intervalo-numero {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 400;
+}
+
+#intervalo-texto {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.icon {
+    font-size: 24px;
+    font-weight: 400;
+    color: black;   
+}

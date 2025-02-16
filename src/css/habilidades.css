@@ -1,0 +1,162 @@
+.habilidades {
+  width: 1280px;
+  margin-bottom: 148px;
+}
+
+#habilidades {
+  font-family: "Times New Roman";
+  position: absolute;
+  font-size: 160px;
+  font-weight: 800;
+  color: rgba(0, 0, 0, 0.05);
+  top: 320%;
+  right: 34%;
+}
+
+.habilidade1 {
+  display: flex;
+  width: 1280px;
+  justify-content: space-between;
+  margin-top: 120px;
+}
+
+.introducao-habilidades {
+  position: relative;
+  padding-bottom: 20px;
+  padding-left: 32px;
+  padding-top: 20px;
+  margin-bottom: 42px;
+  max-height: 80px;
+}
+
+.introducao-habilidades::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 2px;
+  height: 100%;
+  background-color: #000;
+}
+
+.introducao-habilidades h4,
+h2 {
+  margin: 0;
+}
+
+.introducao-habilidades h4 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.introducao-habilidades h2 {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 48px;
+  margin-bottom: 5px;
+}
+
+.progresso1 {
+  width: 722px;
+}
+
+.container-progresso {
+  width: 100%;
+  max-width: 900px;
+  margin: 20px auto;
+}
+
+.label-progresso {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.barra-progresso {
+  width: 100%;
+  height: 3px;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.barra-progresso-completa {
+  height: 100%;
+  background-color: #000;
+  transition: width 0.5s ease-in-out;
+}
+
+.habilidade2 {
+  display: flex;
+  width: 1280px;
+  justify-content: right;
+  margin-top: 150px;
+  gap: 200px;
+}
+
+.progresso2 {
+  display: flex;
+  gap: 150px;
+  margin-right: 120px;
+}
+
+.container-circulo-progresso {
+  max-width: 180px;
+  text-align: center;
+}
+
+.circulo-progresso {
+  position: relative;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background: conic-gradient(black 90%, white 0%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circulo-progresso::before {
+  content: "";
+  position: absolute;
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  background-color: rgb(255, 219, 103);
+}
+
+.porcentagem-progresso {
+  position: relative;
+  font-size: 40px;
+  font-weight: 600;
+  z-index: 1;
+}
+
+.texto-progresso {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.serial1 {
+  position: absolute;
+  font-size: 35px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.5);
+  right: 34%;
+  transform: rotate(-90deg);
+  top: 351%;
+  right: 91.7%;
+}
+
+.serial2 {
+  position: absolute;
+  font-size: 35px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.5);
+  right: 34%;
+  transform: rotate(-90deg);
+  top: 409%;
+  right: 81.4%;
+}

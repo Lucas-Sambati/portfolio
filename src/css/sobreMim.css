@@ -13,7 +13,7 @@
     right: 43%;
 }
 
-.introducao {
+.introducao-sobre {
   position: relative; 
   padding-bottom: 20px;
   padding-left: 60px;
@@ -22,7 +22,7 @@
   margin-bottom: 42px;
 }
 
-.introducao::before {
+.introducao-sobre::before {
   content: "";
   position: absolute;
   left: 0;
@@ -32,16 +32,16 @@
   background-color: #000;
 }
 
-.introducao h4, h2 {
+.introducao-sobre h4, h2 {
     margin: 0;
 }
 
-.introducao h4 {
+.introducao-sobre h4 {
     font-size: 24px;
     font-weight: 500;
 }
 
-.introducao h2 {
+.introducao-sobre h2 {
     font-size: 80px;
     font-weight: 600;
 }

@@ -1,20 +1,201 @@
 .meus-servicos {
-    width: 1280px;
-    margin-bottom: 148px;
+  width: 1280px;
+  margin-bottom: 148px;
 }
 
 #meus-servicos {
-    font-family: "Times New Roman";
-    position: absolute;
-    font-size: 160px;
-    font-weight: 800;
-    color: rgba(0, 0, 0, 0.05);
-    top: 216%;
-    right: 50%;
+  font-family: "Times New Roman";
+  position: absolute;
+  font-size: 160px;
+  font-weight: 800;
+  color: rgba(0, 0, 0, 0.05);
+  top: 216%;
+  right: 50%;
 }
 
-.icon {
-    font-size: 24px;  /* Define o tamanho do ícone */
-    color: black;     /* Define a cor */
-    display: inline-block; /* Mantém o ícone no fluxo normal */
+.introducao-servicos {
+  position: relative;
+  padding-bottom: 20px;
+  padding-left: 60px;
+  padding-top: 36px;
+  margin-top: 120px;
+  margin-bottom: 42px;
+}
+
+.introducao-servicos::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 2px;
+  height: 100%;
+  background-color: #000;
+}
+
+.introducao-servicos h4,
+h2 {
+  margin: 0;
+}
+
+.introducao-servicos h4 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.introducao-servicos h2 {
+  font-size: 80px;
+  font-weight: 600;
+}
+
+.carrossel-animado {
+  display: flex;
+  gap: 60px;
+  justify-content: flex-start; /* Alinha os itens à esquerda */
+  width: max-content; /* Garante que o carrossel ocupe o espaço necessário */
+  transition: transform 0.5s ease-in-out; /* Adiciona transição suave */
+  margin-left: 20px;
+}
+
+.container-servico {
+  border: rgb(var(--black)) solid 1px;
+  width: 373px;
+  height: 448px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(var(--primary));
+  position: relative;
+  flex-shrink: 0; /* Impede que as divs encolham */
+}
+.servico {
+  width: 273px;
+  height: 332px;
+}
+
+.numero-servico {
+  width: 76px;
+  height: 76px;
+  border: #000 solid 1px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.numero-servico h2 {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.servico h4 {
+  display: inline-block;
+  width: auto;
+  font-size: 24px;
+  font-weight: 500;
+  border-bottom: #000 solid 2px;
+}
+
+.lista-descricao-servicos {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.descricao-servicos {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 400;
+  gap: 10px;
+}
+
+.descricao-servicos p {
+  margin: 0px;
+}
+
+/* Contornos irregulares do quadrado */
+.container-servico::before,
+.container-servico::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 1px solid rgb(var(--black));
+  z-index: -1;
+  opacity: 0;
+}
+
+.container-servico:hover::before {
+  transform: rotate(2.5deg);
+  opacity: 1;
+}
+
+.container-servico:hover::after {
+  transform: rotate(-2.5deg);
+  opacity: 1;
+}
+
+.container-servico::before,
+.container-servico::after {
+  transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out;
+}
+
+/* Criando as ondas no contorno */
+.container-servico:hover .numero-servico span {
+  position: absolute;
+  width: 76px;
+  height: 76px;
+  border-radius: 50%;
+  border: 1px solid rgb(0, 0, 0);
+  animation: ondas 1.7s infinite linear; /* Tempo total da animação */
+}
+
+.container-servico:hover .numero-servico span:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.container-servico:hover .numero-servico span:nth-child(2) {
+  animation-delay: 0.425s;
+}
+
+.container-servico:hover .numero-servico span:nth-child(3) {
+  animation-delay: 0.85s;
+}
+
+.container-servico:hover .numero-servico span:nth-child(4) {
+  animation-delay: 1.275s;
+}
+
+@keyframes ondas {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.2);
+    opacity: 0;
+  }
+}
+
+@keyframes slideOutLeft {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
 }

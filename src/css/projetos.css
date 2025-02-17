@@ -1,0 +1,131 @@
+.projetos {
+  width: 1280px;
+  margin-bottom: 148px;
+}
+
+#projetos {
+  font-family: "Times New Roman";
+  position: absolute;
+  font-size: 160px;
+  font-weight: 800;
+  color: rgba(0, 0, 0, 0.05);
+  top: 449%;
+  right: 48.5%;
+}
+
+.introducao-projetos {
+  position: relative;
+  padding-bottom: 20px;
+  padding-left: 60px;
+  padding-top: 36px;
+  margin-top: 120px;
+  margin-bottom: 62px;
+}
+
+.introducao-projetos::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 2px;
+  height: 100%;
+  background-color: #000;
+}
+
+.introducao-projetos h4,
+h2 {
+  margin: 0;
+}
+
+.introducao-projetos h4 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.introducao-projetos h2 {
+  font-size: 80px;
+  font-weight: 600;
+}
+
+.container-projetos {
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+
+.desc-projeto {
+    margin-top: 27px;
+}
+
+.desc-projeto h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 4px;
+}
+
+.desc-projeto p {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 12px;
+}
+
+.desc-projeto h4 {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.img-projeto {
+  width: 407px;
+  height: 468px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(var(--primary));
+  position: relative;
+  flex-shrink: 0; /* Impede que as divs encolham */
+}
+
+.img-projeto:hover {
+    cursor: pointer;
+}
+
+.img-projeto img {
+    transition: transform 1000ms linear;
+}
+
+.img-projeto img:hover {
+    transform: scale(0.99);
+}
+
+/* Contornos irregulares do quadrado */
+.img-projeto::before,
+.img-projeto::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 1px solid rgb(var(--black));
+  z-index: -1;
+  opacity: 0;
+}
+
+.img-projeto:hover::before {
+  transform: rotate(2.5deg);
+  opacity: 1;
+}
+
+.img-projeto:hover::after {
+  transform: rotate(-2.5deg);
+  opacity: 1;
+}
+
+.img-projeto::before,
+.img-projeto::after {
+  transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out;
+}

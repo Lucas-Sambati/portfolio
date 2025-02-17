@@ -1,0 +1,115 @@
+.contatos {
+    width: 1280px;
+    margin-bottom: 260px;
+}
+
+#contatos {
+    font-family: "Times New Roman";
+    position: absolute;
+    font-size: 160px;
+    font-weight: 800;
+    color: rgba(0, 0, 0, 0.05);
+    top: 674%;
+    right: 46.9%;
+}
+
+.introducao-contatos {
+  position: relative; 
+  padding-bottom: 20px;
+  padding-left: 60px;
+  padding-top: 36px;
+  margin-top: 120px;
+  margin-bottom: 42px;
+}
+
+.introducao-contatos::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 2px; 
+  height: 100%;
+  background-color: #000;
+}
+
+.introducao-contatos h4, h2 {
+    margin: 0;
+}
+
+.introducao-contatos h4 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.introducao-contatos h2 {
+    font-size: 80px;
+    font-weight: 600;
+}
+
+.container-contatos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.desc-contatos {
+    display: flex;
+    gap: 37px;
+}
+
+.dados-contatos {
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+    align-items: center;
+}
+
+.dados-contatos i {
+    font-size: 1.6rem;
+    border: 1px solid #000;
+    border-radius: 50%;
+    padding: 25px;
+}
+
+.dados-contatos p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.texto-localidade {
+    display: flex;
+    flex-direction: column;
+}
+
+.texto-localidade p {
+    margin: 0;
+}
+
+.icon-contatos {
+    display: flex;
+    gap: 19px;
+}
+
+.icon-contatos i {
+    font-size: 1.6rem;
+    border: 1px solid #000;
+    border-radius: 50%;
+    padding: 16px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.icon-contatos i:hover {
+    background-color: #000;
+    color: #FFF;
+    cursor: pointer;
+}
+
+footer {
+    width: 100%;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0, 0.7);
+    padding-bottom: 5px;
+}

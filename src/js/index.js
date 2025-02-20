@@ -24,3 +24,34 @@ document.addEventListener("DOMContentLoaded", function () {
 
     typeWriter(); // Inicia o efeito
 });
+
+document.querySelectorAll(".sessoes").forEach(sessao => {
+    sessao.addEventListener("click", function() {
+        // Remove a classe 'ativo' de todos os itens
+        document.querySelectorAll(".sessoes").forEach(item => {
+            item.classList.remove("ativo");
+        });
+
+        // Adiciona a classe 'ativo' apenas ao item clicado
+        this.classList.add("ativo");
+    });
+});
+
+
+document.querySelectorAll("nav ul li").forEach(li => {
+    li.addEventListener("click", function() {
+        const scrollPosition = parseInt(this.getAttribute("data-scroll"));
+        window.scrollTo({ top: scrollPosition, behavior: "smooth" });
+    });
+});
+
+document.querySelectorAll(".intervalo").forEach(intervalo => {
+    intervalo.addEventListener("click", function(event) {
+        event.preventDefault(); // Evita o comportamento padrão do link
+        
+        const scrollPosition = parseInt(this.getAttribute("data-scroll"));
+        
+        window.scrollTo({ top: scrollPosition, behavior: "smooth" });
+    });
+});
+

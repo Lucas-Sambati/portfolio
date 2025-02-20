@@ -1,20 +1,20 @@
 .sobre-mim {
-    width: 1280px;
-    margin-bottom: 148px;
+  width: 1280px;
+  margin-bottom: 148px;
 }
 
 #sobre-mim {
-    font-family: "Times New Roman";
-    position: absolute;
-    font-size: 160px;
-    font-weight: 800;
-    color: rgba(0, 0, 0, 0.05);
-    top: 111%;
-    right: 43%;
+  font-family: "Times New Roman";
+  position: absolute;
+  font-size: 160px;
+  font-weight: 800;
+  color: rgba(0, 0, 0, 0.05);
+  top: 111%;
+  right: 43%;
 }
 
 .introducao-sobre {
-  position: relative; 
+  position: relative;
   padding-bottom: 20px;
   padding-left: 60px;
   padding-top: 36px;
@@ -27,141 +27,155 @@
   position: absolute;
   left: 0;
   top: 0;
-  width: 2px; 
+  width: 2px;
   height: 100%;
   background-color: #000;
 }
 
-.introducao-sobre h4, h2 {
-    margin: 0;
+.introducao-sobre h4,
+h2 {
+  margin: 0;
 }
 
 .introducao-sobre h4 {
-    font-size: 24px;
-    font-weight: 500;
+  font-size: 24px;
+  font-weight: 500;
 }
 
 .introducao-sobre h2 {
-    font-size: 80px;
-    font-weight: 600;
+  font-size: 80px;
+  font-weight: 600;
 }
 
 .conteudo-pessoal {
-    display: flex;
-    justify-content: space-between;
-    height: auto;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+  align-items: center;
 }
 
 .descricao-pessoal h2 {
-    font-size: 40px;
-    font-weight: 500;
+  font-size: 40px;
+  font-weight: 500;
 }
 
 .descricao-pessoal p {
-    font-size: 20px;
-    font-weight: 400;
-    margin-bottom: 40px;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 40px;
 }
 
 .dados {
-    display: flex;
-    justify-content: space-between;
-    max-width: 820px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 820px;
 }
 
-.conteudo-dados p, span, a {
-    margin: 0;
-    font-size: 18px;
-    font-weight: 500;
+.conteudo-dados p,
+span {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+#conteudo-dados-email {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 500;
 }
 
 .experience-card p {
-    margin-top: 270px;
-    font-size: 20px;
-    font-weight: 500;
+  margin-top: 270px;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 :root {
-    --black: 0, 0, 0;
-    --primary: 255, 219, 103;
-    --white: 255, 255, 255;
+  --black: 0, 0, 0;
+  --primary: 255, 219, 103;
+  --white: 255, 255, 255;
 }
 
 .experience-card {
-    border: 1px solid rgb(var(--black));
-    width: 1450px;
-    height: 350px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: rgb(var(--primary));
-    position: relative;
-    font-size: 50px;
-    font-weight: bold;
-    text-align: center;
+  border: 1px solid rgb(var(--black));
+  width: 1450px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(var(--primary));
+  position: relative;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
 }
 
 /* Contornos irregulares do quadrado */
 .experience-card::before,
 .experience-card::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: 1px solid rgb(var(--black));
-    z-index: -1;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 1px solid rgb(var(--black));
+  z-index: -1;
 }
 
 .experience-card::before {
-    transform: rotate(2.5deg);
+  transform: rotate(2.5deg);
 }
 
 .experience-card::after {
-    transform: rotate(-2.5deg);
+  transform: rotate(-2.5deg);
 }
 
 /* Número 3 normal no centro */
 .main-number {
-    font-size: 200px;
-    position: absolute;
-    color: rgb(var(--black));
-    z-index: 2; /* Coloca na frente */
-    font-weight: 700;
+  font-size: 200px;
+  position: absolute;
+  color: rgb(var(--black));
+  z-index: 2; /* Coloca na frente */
+  font-weight: 700;
 }
 
 /* Números 3 contornados atrás do principal */
 .outline-number {
-    position: absolute;
-    font-size: 200px;
-    font-weight: 700;
-    -webkit-text-stroke: 1.5px rgb(var(--black));
-    color: transparent; /* Apenas o contorno visível */
-    z-index: 1; /* Fica atrás do número principal */
+  position: absolute;
+  font-size: 200px;
+  font-weight: 700;
+  -webkit-text-stroke: 1.5px rgb(var(--black));
+  color: transparent; /* Apenas o contorno visível */
+  z-index: 1; /* Fica atrás do número principal */
 }
 
 /* Posições desalinhadas para efeito torto */
-.outline-number:nth-child(2) { top: 6%; transform: rotate(10deg); }
-.outline-number:nth-child(3) { bottom: 6%;transform: rotate(-10deg); }
+.outline-number:nth-child(2) {
+  top: 6%;
+  transform: rotate(10deg);
+}
+.outline-number:nth-child(3) {
+  bottom: 6%;
+  transform: rotate(-10deg);
+}
 
 /* Transição suave para os contornos e números */
 .experience-card::before,
 .experience-card::after,
 .outline-number {
-    transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out;
 }
 
 /* Efeito ao passar o mouse */
 .experience-card:hover::before,
 .experience-card:hover::after {
-    transform: rotate(0deg); /* Ajusta os traços para um quadrado perfeito */
-    opacity: 0;
+  transform: rotate(0deg); /* Ajusta os traços para um quadrado perfeito */
+  opacity: 0;
 }
 
 /* Ajusta os números contornados para a posição correta */
 .experience-card:hover .outline-number {
-    transform: rotate(0deg) translate(0, 0);
-    opacity: 0; /* Eles desaparecem ao se sobrepor ao número principal */
+  transform: rotate(0deg) translate(0, 0);
+  opacity: 0; /* Eles desaparecem ao se sobrepor ao número principal */
 }

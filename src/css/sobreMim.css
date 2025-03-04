@@ -9,7 +9,7 @@
   font-size: 160px;
   font-weight: 800;
   color: rgba(0, 0, 0, 0.05);
-  top: 111%;
+  top: 90%;
   right: 43%;
 }
 
@@ -178,4 +178,234 @@ span {
 .experience-card:hover .outline-number {
   transform: rotate(0deg) translate(0, 0);
   opacity: 0; /* Eles desaparecem ao se sobrepor ao número principal */
+}
+
+@media (max-width: 1536px) {
+  .sobre-mim {
+    width: 1024px; /* 1280px * 0.8 */
+    margin-bottom: 118px; /* 148px * 0.8 */
+  }
+
+  #sobre-mim {
+    font-size: 128px; /* 160px * 0.8 */
+    top: 90%; /* 111% * 0.8 */
+    right: 43%; /* 43% * 0.8 */
+  }
+
+  .introducao-sobre {
+    padding-bottom: 16px; /* 20px * 0.8 */
+    padding-left: 48px; /* 60px * 0.8 */
+    padding-top: 29px; /* 36px * 0.8 */
+    margin-top: 96px; /* 120px * 0.8 */
+    margin-bottom: 34px; /* 42px * 0.8 */
+  }
+
+  .introducao-sobre h4 {
+    font-size: 19px; /* 24px * 0.8 */
+  }
+
+  .introducao-sobre h2 {
+    font-size: 64px; /* 80px * 0.8 */
+  }
+
+  .descricao-pessoal h2 {
+    font-size: 32px; /* 40px * 0.8 */
+  }
+
+  .descricao-pessoal p {
+    font-size: 16px; /* 20px * 0.8 */
+    margin-bottom: 32px; /* 40px * 0.8 */
+  }
+
+  .dados {
+    max-width: 656px; /* 820px * 0.8 */
+  }
+
+  .conteudo-dados p,
+  span {
+    font-size: 14px; /* 18px * 0.8 */
+  }
+
+  #conteudo-dados-email {
+    font-size: 14px; /* 18px * 0.8 */
+  }
+
+  .experience-card p {
+    margin-top: 216px; /* 270px * 0.8 */
+    font-size: 16px; /* 20px * 0.8 */
+  }
+
+  .experience-card {
+    width: 1160px; /* 1450px * 0.8 */
+    height: 280px; /* 350px * 0.8 */
+    font-size: 40px; /* 50px * 0.8 */
+  }
+
+  .main-number {
+    font-size: 160px; /* 200px * 0.8 */
+  }
+
+  .outline-number {
+    font-size: 160px; /* 200px * 0.8 */
+  }
+
+  .outline-number:nth-child(2) {
+    top: 4.8%; /* 6% * 0.8 */
+  }
+
+  .outline-number:nth-child(3) {
+    bottom: 4.8%; /* 6% * 0.8 */
+  }
+}
+
+@media (max-width: 1440px) {
+  .sobre-mim {
+    width: 960px; /* 1280px * 0.75 */
+    margin-bottom: 111px; /* 148px * 0.75 */
+  }
+
+  #sobre-mim {
+    font-size: 120px; /* 160px * 0.75 */
+    top: 81%; /* Não alterado, pois é relativo */
+    right: 43%; /* Não alterado, pois é relativo */
+  }
+
+  .introducao-sobre {
+    padding-bottom: 15px; /* 20px * 0.75 */
+    padding-left: 45px; /* 60px * 0.75 */
+    padding-top: 27px; /* 36px * 0.75 */
+    margin-top: 90px; /* 120px * 0.75 */
+    margin-bottom: 31.5px; /* 42px * 0.75 */
+  }
+
+  .introducao-sobre h4 {
+    font-size: 18px; /* 24px * 0.75 */
+  }
+
+  .introducao-sobre h2 {
+    font-size: 60px; /* 80px * 0.75 */
+  }
+
+  .descricao-pessoal h2 {
+    font-size: 30px; /* 40px * 0.75 */
+  }
+
+  .descricao-pessoal p {
+    font-size: 15px; /* 20px * 0.75 */
+    margin-bottom: 30px; /* 40px * 0.75 */
+  }
+
+  .dados {
+    max-width: 615px; /* 820px * 0.75 */
+  }
+
+  .conteudo-dados p,
+  span,
+  #conteudo-dados-email {
+    font-size: 13.5px; /* 18px * 0.75 */
+  }
+
+  .experience-card {
+    width: 1087.5px; /* 1450px * 0.75 */
+    height: 262.5px; /* 350px * 0.75 */
+    font-size: 37.5px; /* 50px * 0.75 */
+  }
+
+  .experience-card p {
+    margin-top: 202.5px; /* 270px * 0.75 */
+    font-size: 15px; /* 20px * 0.75 */
+  }
+
+  .main-number,
+  .outline-number {
+    font-size: 150px; /* 200px * 0.75 */
+  }
+
+  .outline-number:nth-child(2) {
+    top: 4.5%; /* 6% * 0.75 */
+  }
+
+  .outline-number:nth-child(3) {
+    bottom: 4.5%; /* 6% * 0.75 */
+  }
+}
+
+@media (max-width: 1366px) {
+  .sobre-mim {
+    width: 910px; /* 1280px * 0.711 */
+    margin-bottom: 105px; /* 148px * 0.711 */
+  }
+
+  #sobre-mim {
+    font-size: 114px; /* 160px * 0.711 */
+    top: 89%; /* Não alterado, pois é relativo */
+    right: 43%; /* Não alterado, pois é relativo */
+  }
+
+  .introducao-sobre {
+    padding-bottom: 14px; /* 20px * 0.711 */
+    padding-left: 43px; /* 60px * 0.711 */
+    padding-top: 26px; /* 36px * 0.711 */
+    margin-top: 85px; /* 120px * 0.711 */
+    margin-bottom: 30px; /* 42px * 0.711 */
+  }
+
+  .introducao-sobre h4 {
+    font-size: 17px; /* 24px * 0.711 */
+  }
+
+  .introducao-sobre h2 {
+    font-size: 57px; /* 80px * 0.711 */
+  }
+
+  .descricao-pessoal h2 {
+    font-size: 28px; /* 40px * 0.711 */
+  }
+
+  .descricao-pessoal p {
+    font-size: 14px; /* 20px * 0.711 */
+    margin-bottom: 28px; /* 40px * 0.711 */
+  }
+
+  .dados {
+    max-width: 583px; /* 820px * 0.711 */
+  }
+
+  .conteudo-dados p,
+  span {
+    font-size: 13px; /* 18px * 0.711 */
+  }
+
+  #conteudo-dados-email {
+    font-size: 13px; /* 18px * 0.711 */
+  }
+
+  .experience-card p {
+    margin-top: 192px; /* 270px * 0.711 */
+    font-size: 14px; /* 20px * 0.711 */
+  }
+
+  .experience-card {
+    width: 1030px; /* 1450px * 0.711 */
+    height: 249px; /* 350px * 0.711 */
+    font-size: 36px; /* 50px * 0.711 */
+  }
+
+  .main-number {
+    font-size: 142px; /* 200px * 0.711 */
+  }
+
+  .outline-number {
+    font-size: 142px; /* 200px * 0.711 */
+  }
+
+  .outline-number:nth-child(2) {
+    top: 6%; /* Não alterado, pois é relativo */
+    transform: rotate(10deg); /* Não alterado, pois é relativo */
+  }
+
+  .outline-number:nth-child(3) {
+    bottom: 6%; /* Não alterado, pois é relativo */
+    transform: rotate(-10deg); /* Não alterado, pois é relativo */
+  }
 }

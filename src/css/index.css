@@ -18,6 +18,10 @@ header {
   z-index: 1000; /* Garante que o header esteja acima dos outros elementos */
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .navegacao {
   position: fixed;
   right: 160px;
@@ -559,70 +563,98 @@ li::marker {
 }
 
 @media (max-width: 1366px) {
-    .navegacao {
-        right: 100px; /* Ajuste a posição */
-        top: 100px; /* Ajuste a posição */
-    }
+  .navegacao {
+    right: 114px; /* 160px * 0.711 */
+    top: 107px; /* 150px * 0.711 */
+  }
 
-    .container-fluido {
-        margin-left: 50px; /* Reduz a margem esquerda */
-        width: 900px; /* Reduz a largura */
-    }
+  .navegacao h2,
+  a {
+    font-size: 12px; /* 17px * 0.711 */
+  }
 
-    .topo {
-        width: 900px; /* Reduz a largura */
-        margin-bottom: 150px; /* Reduz a margem inferior */
-    }
+  .lista-sessoes {
+    gap: 6px; /* 9px * 0.711 */
+    max-width: 213px; /* 300px * 0.711 */
+    margin-bottom: 11px; /* 16px * 0.711 */
+  }
 
-    .foto-pessoal {
-        width: 300px; /* Reduz o tamanho da foto */
-        height: 300px; /* Reduz o tamanho da foto */
-    }
+  .sessoes {
+    padding-left: 24px; /* 34px * 0.711 */
+    width: 213px; /* 300px * 0.711 */
+    height: 30px; /* 42px * 0.711 */
+  }
 
-    .foto-pessoal img {
-        width: 300px; /* Reduz o tamanho da imagem */
-        height: 300px; /* Reduz o tamanho da imagem */
-    }
+  .descricao-nav {
+    gap: 7px; /* 10px * 0.711 */
+    padding-top: 14px; /* 20px * 0.711 */
+    padding-left: 24px; /* 34px * 0.711 */
+    padding-bottom: 28px; /* 40px * 0.711 */
+  }
 
-    .foto-pessoal span {
-        width: 300px; /* Reduz o tamanho das ondas */
-        height: 300px; /* Reduz o tamanho das ondas */
-    }
+  .descricao-nav h2 {
+    font-size: 13px; /* 18px * 0.711 */
+  }
 
-    .conteudo h1 {
-        font-size: 30px; /* Reduz o tamanho da fonte */
-    }
+  .container-fluido {
+    margin-top: 71px; /* 100px * 0.711 */
+    margin-left: 71px; /* 100px * 0.711 */
+    width: 907px; /* 1275px * 0.711 */
+  }
 
-    .conteudo h2 {
-        font-size: 20px; /* Reduz o tamanho da fonte */
-    }
+  .topo {
+    margin-top: 75px; /* 105px * 0.711 */
+    width: 910px; /* 1280px * 0.711 */
+    margin-bottom: 178px; /* 250px * 0.711 */
+  }
 
-    .Typewriter__wrapper {
-        font-size: 70px; /* Reduz o tamanho da fonte */
-    }
+  .foto-pessoal {
+    width: 284px; /* 400px * 0.711 */
+    height: 284px; /* 400px * 0.711 */
+  }
 
-    .Typewriter__cursor {
-        font-size: 70px; /* Reduz o tamanho da fonte */
-    }
+  .foto-pessoal img {
+    width: 284px; /* 400px * 0.711 */
+    height: 284px; /* 400px * 0.711 */
+  }
 
-    .botoes-topo a {
-        font-size: 16px; /* Reduz o tamanho da fonte */
-        padding: 10px 20px; /* Reduz o padding */
-    }
+  .conteudo h1 {
+    font-size: 28px; /* 40px * 0.711 */
+  }
 
-    .descricao-nav h2 {
-        font-size: 16px; /* Reduz o tamanho da fonte */
-    }
+  .conteudo h2 {
+    font-size: 17px; /* 24px * 0.711 */
+  }
 
-    .intervalo #intervalo-numero {
-        font-size: 14px; /* Reduz o tamanho da fonte */
-    }
+  .botoes-topo {
+    margin-top: 28px; /* 40px * 0.711 */
+    gap: 21px; /* 30px * 0.711 */
+  }
 
-    .intervalo #intervalo-texto {
-        font-size: 18px; /* Reduz o tamanho da fonte */
-    }
+  .botoes-topo a {
+    font-size: 13px; /* 18px * 0.711 */
+    padding: 8px 18px; /* 12px * 0.711, 25px * 0.711 */
+  }
 
-    .icon {
-        font-size: 20px; /* Reduz o tamanho da fonte */
-    }
+  .Typewriter__wrapper,
+  .Typewriter__cursor {
+    font-size: 71px; /* 100px * 0.711 */
+  }
+
+  .foto-pessoal span {
+    width: 284px; /* 400px * 0.711 */
+    height: 284px; /* 400px * 0.711 */
+  }
+
+  #intervalo-numero {
+    font-size: 11px; /* 16px * 0.711 */
+  }
+
+  #intervalo-texto {
+    font-size: 14px; /* 20px * 0.711 */
+  }
+
+  .icon {
+    font-size: 17px; /* 24px * 0.711 */
+  }
 }

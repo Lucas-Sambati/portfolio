@@ -9,8 +9,8 @@
   font-size: 160px;
   font-weight: 800;
   color: rgba(0, 0, 0, 0.05);
-  top: 174%;
-  right: 50%;
+  bottom: 30%;
+  right: 34%;
 }
 
 .introducao-servicos {
@@ -209,7 +209,8 @@ h2 {
 
   #meus-servicos {
     font-size: 128px; /* 160px * 0.8 */
-    top: 174%; /* 216% * 0.8 */
+    bottom: 30%;
+    right: 34%;
   }
 
   .introducao-servicos {
@@ -281,7 +282,8 @@ h2 {
 
   #meus-servicos {
     font-size: 120px; /* 160px * 0.75 */
-    top: 157%; /* 216% * 0.75 */
+    bottom: 30%;
+    right: 34%;
   }
 
   .introducao-servicos {
@@ -352,7 +354,8 @@ h2 {
 
   #meus-servicos {
     font-size: 114px; /* 160px * 0.711 */
-    top: 174%; /* 216% * 0.711 */
+    bottom: 30%;
+    right: 34%;
   }
 
   .introducao-servicos {

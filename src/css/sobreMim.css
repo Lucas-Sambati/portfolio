@@ -5,12 +5,12 @@
 
 #sobre-mim {
   font-family: "Times New Roman";
-  position: absolute;
   font-size: 160px;
   font-weight: 800;
   color: rgba(0, 0, 0, 0.05);
-  top: 90%;
-  right: 43%;
+  position: absolute;
+  bottom: 30%;
+  right: 24%;
 }
 
 .introducao-sobre {
@@ -188,8 +188,8 @@ span {
 
   #sobre-mim {
     font-size: 128px; /* 160px * 0.8 */
-    top: 90%; /* 111% * 0.8 */
-    right: 43%; /* 43% * 0.8 */
+    bottom: 30%;
+    right: 24%;
   }
 
   .introducao-sobre {
@@ -266,8 +266,8 @@ span {
 
   #sobre-mim {
     font-size: 120px; /* 160px * 0.75 */
-    top: 81%; /* Não alterado, pois é relativo */
-    right: 43%; /* Não alterado, pois é relativo */
+    bottom: 30%;
+    right: 24%;
   }
 
   .introducao-sobre {
@@ -338,8 +338,8 @@ span {
 
   #sobre-mim {
     font-size: 114px; /* 160px * 0.711 */
-    top: 89%; /* Não alterado, pois é relativo */
-    right: 43%; /* Não alterado, pois é relativo */
+    bottom: 30%;
+    right: 24%;
   }
 
   .introducao-sobre {

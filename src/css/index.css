@@ -295,7 +295,7 @@ li::marker {
   .navegacao {
     position: fixed;
     right: 120px; /* Reduzido de 160px */
-    top: 112px; /* Reduzido de 150px */
+    top: 150px; /* Reduzido de 150px */
   }
 
   .navegacao::before {
@@ -464,7 +464,7 @@ li::marker {
 @media (max-width: 1440px) {
   .navegacao {
     right: 120px; /* Ajustado proporcionalmente */
-    top: 112.5px; /* Ajustado proporcionalmente */
+    top: 150px; /* Ajustado proporcionalmente */
   }
 
   .navegacao h2,
@@ -565,7 +565,7 @@ li::marker {
 @media (max-width: 1366px) {
   .navegacao {
     right: 114px; /* 160px * 0.711 */
-    top: 107px; /* 150px * 0.711 */
+    top: 150px; /* 150px * 0.711 */
   }
 
   .navegacao h2,

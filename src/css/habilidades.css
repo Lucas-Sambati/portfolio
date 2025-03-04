@@ -9,11 +9,12 @@
   font-size: 160px;
   font-weight: 800;
   color: rgba(0, 0, 0, 0.05);
-  top: 257%;
-  right: 34%;
+  bottom: 90%;
+  left: 1.5%;
 }
 
 .habilidade1 {
+  position: relative;
   display: flex;
   width: 1280px;
   justify-content: space-between;
@@ -146,8 +147,8 @@ h2 {
   color: rgba(0, 0, 0, 0.5);
   right: 34%;
   transform: rotate(-90deg);
-  top: 284%;
-  right: 91.7%;
+  top: 110%;
+  right: 86%;
 }
 
 .serial2 {
@@ -157,8 +158,8 @@ h2 {
   color: rgba(0, 0, 0, 0.5);
   right: 34%;
   transform: rotate(-90deg);
-  top: 331%;
-  right: 81.4%;
+  top: 113%;
+  right: 77%;
 }
 
 @media (max-width: 1536px) {
@@ -169,8 +170,8 @@ h2 {
 
   #habilidades {
     font-size: 128px; /* 160px * 0.8 */
-    top: 259%; /* 320% * 0.8 */
-    right: 34%; /* 34% * 0.8 */
+    bottom: 90%;
+    left: 1.5%;
   }
 
   .habilidade1 {
@@ -246,14 +247,14 @@ h2 {
 
   .serial1 {
     font-size: 28px; /* 35px * 0.8 */
-    top: 285%; /* 351% * 0.8 */
-    right: 92%; /* 91.7% * 0.8 */
+    top: 110%;
+    right: 86%;
   }
 
   .serial2 {
     font-size: 28px; /* 35px * 0.8 */
-    top: 331%; /* 409% * 0.8 */
-    right: 81.5%; /* 81.4% * 0.8 */
+    top: 113%;
+    right: 77%;
   }
 }
 
@@ -265,8 +266,8 @@ h2 {
 
   #habilidades {
     font-size: 120px; /* 160px * 0.75 */
-    top: 232%; /* 320% * 0.75 */
-    right: 34%; /* 34% * 0.75 */
+    bottom: 90%;
+    left: 1.5%;
   }
 
   .habilidade1 {
@@ -342,14 +343,14 @@ h2 {
 
   .serial1 {
     font-size: 26.25px; /* 35px * 0.75 */
-    top: 256%; /* 351% * 0.75 */
-    right: 91.5%; /* 91.7% * 0.75 */
+    top: 110%;
+    right: 86%;
   }
 
   .serial2 {
     font-size: 26.25px; /* 35px * 0.75 */
-    top: 298%; /* 409% * 0.75 */
-    right: 81%; /* 81.4% * 0.75 */
+    top: 113%;
+    right: 77%;
   }
 }
 
@@ -361,8 +362,8 @@ h2 {
 
   #habilidades {
     font-size: 114px; /* 160px * 0.711 */
-    top: 257%; /* 320% * 0.711 */
-    right: 34%; /* 34% * 0.711 */
+    bottom: 90%;
+    left: 1.5%;
   }
 
   .habilidade1 {
@@ -438,13 +439,13 @@ h2 {
 
   .serial1 {
     font-size: 25px; /* 35px * 0.711 */
-    top: 284%; /* 351% * 0.711 */
-    right: 91.5%; /* 91.7% * 0.711 */
+    top: 110%;
+    right: 86%;
   }
 
   .serial2 {
     font-size: 25px; /* 35px * 0.711 */
-    top: 331%; /* 409% * 0.711 */
-    right: 81%; /* 81.4% * 0.711 */
+    top: 113%;
+    right: 77%;
   }
 }

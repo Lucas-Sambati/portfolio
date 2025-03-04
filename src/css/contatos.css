@@ -9,8 +9,8 @@
   font-size: 160px;
   font-weight: 800;
   color: rgba(0, 0, 0, 0.05);
-  top: 544%;
-  right: 46.9%;
+  bottom: 30%;
+  right: 30%;
 }
 
 .introducao-contatos {
@@ -123,8 +123,8 @@ footer {
 
   #contatos {
     font-size: 128px; /* 160px * 0.8 */
-    top: 545%; /* 674% * 0.8 */
-    right: 46.7%; /* 46.9% * 0.8 */
+    bottom: 30%;
+    right: 30%;
   }
 
   .introducao-contatos {
@@ -185,8 +185,8 @@ footer {
 
   #contatos {
     font-size: 116.64px; /* 160px * 0.729 */
-    top: 460%; /* 674% * 0.729 */
-    right: 34.18%; /* 46.9% * 0.729 */
+    bottom: 30%;
+    right: 30%;
   }
 
   .introducao-contatos {
@@ -247,8 +247,8 @@ footer {
 
   #contatos {
     font-size: 113.76px; /* 160px * 0.711 */
-    top: 544%; /* 674% * 0.711 */
-    right: 47%; /* 46.9% * 0.711 */
+    bottom: 30%;
+    right: 30%;
   }
 
   .introducao-contatos {

@@ -28,26 +28,26 @@
     <div class="pagina">
       <nav class="navegacao" id="navegacao">
         <ul class="lista-sessoes">
-          <li class="sessao-1 sessoes ativo" data-scroll="0">
-            <a href="">01 TOPO</a>
+          <li class="sessao-1 sessoes ativo">
+            <a href="#topo">01 TOPO</a>
           </li>
-          <li class="sessao-2 sessoes" data-scroll="950">
-            <a href="">02 SOBRE MIM</a>
+          <li class="sessao-2 sessoes">
+            <a href="#sobre">02 SOBRE MIM</a>
           </li>
-          <li class="sessao-3 sessoes" data-scroll="1850">
-            <a href="">03 MEUS SERVIÇOS</a>
+          <li class="sessao-3 sessoes">
+            <a href="#servicos">03 MEUS SERVIÇOS</a>
           </li>
-          <li class="sessao-4 sessoes" data-scroll="2850">
-            <a href="">04 HABILIDADES</a>
+          <li class="sessao-4 sessoes">
+            <a href="#skills">04 HABILIDADES</a>
           </li>
-          <li class="sessao-5 sessoes" data-scroll="3900">
-            <a href="">05 PROJETOS</a>
+          <li class="sessao-5 sessoes">
+            <a href="#projects">05 PROJETOS</a>
           </li>
-          <li class="sessao-6 sessoes" data-scroll="5000">
-            <a href="">06 COMO EU TRABALHO</a>
+          <li class="sessao-6 sessoes">
+            <a href="#work">06 COMO EU TRABALHO</a>
           </li>
-          <li class="sessao-7 sessoes" data-scroll="5900">
-            <a href="">07 CONTATOS</a>
+          <li class="sessao-7 sessoes"00">
+            <a href="#contacts">07 CONTATOS</a>
           </li>
         </ul>
         <div class="descricao-nav">
@@ -56,7 +56,7 @@
         </div>
       </nav>
       <main class="container-fluido">
-        <section class="topo">
+        <section class="topo" id="topo">
           <div class="conteudo">
             <h1 class="nome">OLÁ, SOU LUCAS SAMBATI</h1>
             <h1 class="Typewriter">
@@ -81,14 +81,14 @@
             <span></span>
           </div>
         </section>
-        <div class="intervalo" data-scroll="950">
+        <div class="intervalo" id="sobre" data-target="sobre">
           <a id="intervalo-numero" href="">1/7</a>
           <a id="intervalo-texto" href="">Próxima Sessão</a>
           <span class="icon"><i class="ph ph-arrow-elbow-right-down"></i></span>
         </div>
         <section class="sobre-mim">
-          <span id="sobre-mim">SOBRE MIM</span>
           <div class="introducao-sobre">
+            <span id="sobre-mim">SOBRE MIM</span>
             <h4>Algumas Palavras Sobre Mim</h4>
             <h2>Me Conheça Melhor</h2>
           </div>
@@ -105,7 +105,9 @@
               <div class="dados">
                 <div class="conteudo-dados">
                   <p>Email:</p>
-                  <a id="conteudo-dados-email" href="mailto:lucassambati@gmail.com"
+                  <a
+                    id="conteudo-dados-email"
+                    href="mailto:lucassambati@gmail.com"
                     >lucassambati@gmail.com</a
                   >
                 </div>
@@ -127,14 +129,14 @@
             </div>
           </div>
         </section>
-        <div class="intervalo" data-scroll="1850">
+        <div class="intervalo" id="servicos" data-target="servicos">
           <a id="intervalo-numero" href="">2/7</a>
           <a id="intervalo-texto" href="">Próxima Sessão</a>
           <span class="icon"><i class="ph ph-arrow-elbow-right-down"></i></span>
         </div>
         <section class="meus-servicos">
-          <span id="meus-servicos">SERVIÇOS</span>
           <div class="introducao-servicos">
+            <span id="meus-servicos">SERVIÇOS</span>
             <h4>Como Eu Posso Ajudar Seu Próximo Projeto</h4>
             <h2>O Que Eu Faço</h2>
           </div>
@@ -275,16 +277,16 @@
             </div>
           </div>
         </section>
-        <div class="intervalo" data-scroll="2850">
+        <div class="intervalo" id="skills" data-target="skills">
           <a id="intervalo-numero" href="">3/7</a>
           <a id="intervalo-texto" href="">Próxima Sessão</a>
           <span class="icon"><i class="ph ph-arrow-elbow-right-down"></i></span>
         </div>
         <section class="habilidades">
-          <span id="habilidades">HABILIDADES</span>
           <div class="habilidade1">
-            <span class="serial1">01.-</span>
+            <span id="habilidades">HABILIDADES</span>
             <div class="introducao-habilidades">
+              <span class="serial1">01.-</span>
               <h2>Desenvolvimento</h2>
               <h4>Minha experiência em:</h4>
             </div>
@@ -364,8 +366,8 @@
             </div>
           </div>
           <div class="habilidade2">
-            <span class="serial2">02.-</span>
             <div class="introducao-habilidades">
+              <span class="serial2">02.-</span>
               <h2>Linguística</h2>
               <h4>Minha experiência em:</h4>
             </div>
@@ -385,14 +387,14 @@
             </div>
           </div>
         </section>
-        <div class="intervalo" data-scroll="3900">
+        <div class="intervalo" id="projects" data-target="projects">
           <a id="intervalo-numero" href="">4/7</a>
           <a id="intervalo-texto" href="">Próxima Sessão</a>
           <span class="icon"><i class="ph ph-arrow-elbow-right-down"></i></span>
         </div>
         <section class="projetos">
-          <span id="projetos">PROJETOS</span>
           <div class="introducao-projetos">
+            <span id="projetos">PROJETOS</span>
             <h4>Alguns Dos Meus Projetos Mais Recentes</h4>
             <h2 id="cavalo">Projetos Em Destaque</h2>
           </div>
@@ -429,14 +431,14 @@
             </div>
           </div>
         </section>
-        <div class="intervalo" data-scroll="5000">
+        <div class="intervalo" id="work" data-target="work">
           <a id="intervalo-numero" href="">5/7</a>
           <a id="intervalo-texto" href="">Próxima Sessão</a>
           <span class="icon"><i class="ph ph-arrow-elbow-right-down"></i></span>
         </div>
         <section class="trabalho">
-          <span id="trabalho">TRABALHO</span>
           <div class="introducao-trabalho">
+            <span id="trabalho">TRABALHO</span>
             <h4>Como Eu Trabalho</h4>
             <h2>Meu Processo de Trabalho</h2>
           </div>
@@ -491,14 +493,14 @@
             </div>
           </div>
         </section>
-        <div class="intervalo" data-scroll="5900">
+        <div class="intervalo" id="contacts" data-target="contacts">
           <a id="intervalo-numero" href="">6/7</a>
           <a id="intervalo-texto" href="">Próxima Sessão</a>
           <span class="icon"><i class="ph ph-arrow-elbow-right-down"></i></span>
         </div>
         <section class="contatos">
-          <span id="contatos">CONTATOS</span>
           <div class="introducao-contatos">
+            <span id="contatos">CONTATOS</span>
             <h4>Entre Em Contato Comigo</h4>
             <h2>Contate Me</h2>
           </div>

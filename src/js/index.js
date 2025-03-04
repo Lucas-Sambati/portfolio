@@ -38,20 +38,30 @@ document.querySelectorAll(".sessoes").forEach(sessao => {
 });
 
 
-document.querySelectorAll("nav ul li").forEach(li => {
+document.querySelectorAll(".lista-sessoes li").forEach(li => {
     li.addEventListener("click", function() {
-        const scrollPosition = parseInt(this.getAttribute("data-scroll"));
-        window.scrollTo({ top: scrollPosition, behavior: "smooth" });
+        const link = this.querySelector("a");
+        if (link) {
+            const targetId = link.getAttribute("href");
+            if (targetId.startsWith("#")) {
+                document.querySelector(targetId).scrollIntoView({ behavior: "smooth" });
+            }
+        }
     });
 });
 
 document.querySelectorAll(".intervalo").forEach(intervalo => {
     intervalo.addEventListener("click", function(event) {
-        event.preventDefault(); // Evita o comportamento padrão do link
-        
-        const scrollPosition = parseInt(this.getAttribute("data-scroll"));
-        
-        window.scrollTo({ top: scrollPosition, behavior: "smooth" });
+        event.preventDefault(); // Evita problemas com links vazios
+
+        const targetId = this.getAttribute("data-target"); // Pega o destino
+        const targetSection = document.getElementById(targetId); // Obtém a seção correspondente
+
+        if (targetSection) {
+            targetSection.scrollIntoView({ behavior: "smooth" });
+        } else {
+            console.error("Seção não encontrada:", targetId);
+        }
     });
 });
 

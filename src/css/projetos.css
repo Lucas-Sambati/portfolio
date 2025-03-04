@@ -9,8 +9,8 @@
   font-size: 160px;
   font-weight: 800;
   color: rgba(0, 0, 0, 0.05);
-  top: 363%;
-  right: 48.5%;
+  bottom: 30%;
+  right: 32.5%;
 }
 
 .introducao-projetos {
@@ -138,8 +138,8 @@ h2 {
 
   #projetos {
     font-size: 128px; /* 160px * 0.8 */
-    top: 363%; /* 449% * 0.8 */
-    right: 48.8%; /* 48.5% * 0.8 */
+    bottom: 30%;
+    right: 32.5%;
   }
 
   .introducao-projetos {
@@ -200,8 +200,8 @@ h2 {
 
   #projetos {
     font-size: 117px; /* 160px * 0.729 */
-    top: 409%; /* Não alterado, pois é uma porcentagem */
-    right: 48.5%; /* Não alterado, pois é uma porcentagem */
+    bottom: 30%;
+    right: 32.5%; 
   }
 
   .introducao-projetos {
@@ -262,8 +262,8 @@ h2 {
 
   #projetos {
     font-size: 114px; /* 160px * 0.711 */
-    top: 362%; /* 449% * 0.711 */
-    right: 48%; /* 48.5% * 0.711 */
+    bottom: 30%;
+    right: 32.5%;
   }
 
   .introducao-projetos {

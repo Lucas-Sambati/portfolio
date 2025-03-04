@@ -9,8 +9,8 @@
   font-size: 160px;
   font-weight: 800;
   color: rgba(0, 0, 0, 0.05);
-  top: 472%;
-  right: 44.4%;
+  bottom: 30%;
+  right: 26%;
 }
 
 .introducao-trabalho {
@@ -136,8 +136,8 @@ h2 {
 
   #trabalho {
     font-size: 128px; /* 160px * 0.8 */
-    top: 472%; /* 585% * 0.8 */
-    right: 44%; /* 44.4% * 0.8 */
+    bottom: 30%;
+    right: 26%;
   }
 
   .introducao-trabalho {
@@ -184,8 +184,8 @@ h2 {
 
   #trabalho {
     font-size: 117px; /* 160px * 0.729 */
-    top: 426%; /* 585% * 0.729 */
-    right: 32.4%; /* 44.4% * 0.729 */
+    bottom: 30%;
+    right: 26%;
   }
 
   .introducao-trabalho {
@@ -232,8 +232,8 @@ h2 {
 
   #trabalho {
     font-size: 114px; /* 160px * 0.711 */
-    top: 472%; /* 585% * 0.711 */
-    right: 44%; /* 44.4% * 0.711 */
+    bottom: 30%;
+    right: 26%;
   }
 
   .introducao-trabalho {
